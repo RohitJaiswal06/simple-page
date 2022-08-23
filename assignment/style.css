@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+.container{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1em;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    background-color: rgb(252, 252, 252);
+    
+}
+
+.items{
+    background-color:white;
+    border: 1px hidden;
+    border-radius: 0.5rem;
+    text-align: left;
+    padding: 3rem;
+    margin: 15px 10px;
+    box-shadow: 2px 3px 3px 3px rgba(235, 233, 233, 0.979);
+    
+}
+
+.item1{
+    background: linear-gradient(90deg,#ff194f,#42caf3);
+    color: white;
+    border-style: hidden;
+}
+
+a{
+    color: #ff194f;
+    text-decoration: none;
+}
+
+.icons{
+    height: 50px;
+    width: 50px;
+    border: 1px hidden;
+    border-radius: 50%;
+    background: linear-gradient(#ff194f, #42caf3);
+    box-shadow: 2px 3px 3px 3px rgba(235, 233, 233, 0.979);
+    text-align: center;
+    
+}
+
+.icons i{
+    color: white;
+}
+
+.arrow{
+    color: #ff194f;
+}
+
+
+
